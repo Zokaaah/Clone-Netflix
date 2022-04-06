@@ -9,6 +9,28 @@ body{
     color: white;
 }
 
+.navbar{
+    background-color: transparent;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex: 1;
+
+}
+.menu{
+    display: flex;
+     flex: 1;
+}
+
+.icons{
+display: flex;
+flex: 1;
+justify-content: flex-end;
+margin-right: 20px;
+}
+
+
+
 .logo{
     color:var(--vermelho);
     font-family: 'arial Black', Times;
@@ -53,6 +75,7 @@ a:hover{
 
 /*Principal*/
 .filmeprincipal{
+    margin-top: -70px;
     font-size: 16px;
     background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/atlanta.jpg');
 
@@ -73,7 +96,7 @@ a:hover{
 
 .sinopse{
     font-size: 18px;
-    width: 60%;
+    width: 40%;
 }
 
 .botao{
@@ -108,7 +131,8 @@ a:hover{
 
 .title-fav{
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
+
 

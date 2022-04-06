@@ -15,15 +15,25 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">Netflix</h2>
+            
+            <h2 class="logo">Zokahryus</h2>
 
-            <nav class="navbar-">
-                <a href="#">Inicio</a>
-                <a href="#">Series</a>   
-                <a href="#">Filmes</a>   
-                <a href="#">Bombando</a>
-                <a href="#">Minha Lista</a>   
-                <a href="#">Idioma e legendas</a>         
+            <nav class="navbar">
+                <div class="menu">
+                    <a href="#">Inicio</a>
+                    <a href="#">Series</a>   
+                    <a href="#">Filmes</a>   
+                    <a href="#">Bombando</a>
+                    <a href="#">Minha Lista</a>   
+                    <a href="#">Idioma e legendas</a>
+                </div>
+               
+                <div class="icons">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-bell"></i></a> 
+                </div>
+                  
+                    
             </nav>
         </div>
     </header>
@@ -33,7 +43,7 @@
             <div class="container">
                 <h3 class="titulo-filme">Atlanta</h3> 
                   
-                <p class="sinopse">Earnest Marks, mais conhecido como Earn, um jovem que largou a faculdade para tentar realizar seu sonho de se tornar um rapper. Voltando a morar em Atlanta, sua cidade natal, ele acaba se envolvendo no cenário musical rap quando o primo Alfred Miles começa a fazer sucesso nesta área.</p>
+                <p class="sinopse">Earnest Marks, mais conhecido como Earn, um jovem que largou a faculdade para tentar realizar seu sonho de se tornar um rapper.</p>
             </div>
             <div class="botoes">
                 <button class="botao"><i class="fa-solid fa-play"></i>Assistir Agora</button>
@@ -47,6 +57,76 @@
             <h4>Favoritos<i class="fa-regular fa-circle-right"></i></h4>
             
         </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item box-filme"><img src="img/spiderman.jpg"></div>
+            <div class="item"><img src="img/peakyblinders.jpg"></div>
+            <div class="item"><img src="img/lupin.jpg"></div>
+            <div class="item"><img src="img/breaking bad.jpg"></div>
+            <div class="item"><img src="img/arcane.jpg"></div>
+            <div class="item"><img src="img/vikings.jpg"></div>
+            <div class="item"><img src="img/unsolved.jpg"></div>
+            <div class="item"><img src="img/kimetsu.jpg"></div>
+            <div class="item"><img src="img/brooklyn99.jpg"></div>
+            <div class="item"><img src="img/fruitvale.jpg"></div>
+            <div class="item"><img src="img/rickyemorty.jpg"></div>
+            <div class="item"><img src="img/13horas.jpg"></div>
+            <div class="item"><img src="img/aremessofinal.jpg"></div>
+            <div class="item"><img src="img/badboys.jpg"></div>
+            <div class="item"><img src="img/coachcarter.jpg"></div>
+            <div class="item"><img src="img/finalspace.jpg"></div>
+            <div class="item"><img src="img/ryan.jpg"></div>
+            <div class="item"><img src="img/taboo.jpg"></div>
+            <div class="item"><img src="img/topboy.jpg"></div>
+            <div class="item"><img src="img/umsonhodeliberdade.jpg"></div>
+            
+            
+        </div>
+
+        <div class="title-fav">
+            <h4>Continuar assistindo<i class="fa-regular fa-circle-right"></i></h4>
+            
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/rickyemorty.jpg"></div>
+            <div class="item"><img src="img/13horas.jpg"></div>
+            <div class="item"><img src="img/aremessofinal.jpg"></div>
+            <div class="item"><img src="img/badboys.jpg"></div>
+            <div class="item"><img src="img/coachcarter.jpg"></div>
+            <div class="item"><img src="img/finalspace.jpg"></div>
+            <div class="item"><img src="img/ryan.jpg"></div>
+            <div class="item"><img src="img/taboo.jpg"></div>
+            <div class="item"><img src="img/topboy.jpg"></div>
+            <div class="item"><img src="img/umsonhodeliberdade.jpg"></div>
+            
+            
+        </div>
+
+        <div class="title-fav">
+            <h4>Em alta<i class="fa-regular fa-circle-right"></i></h4>
+            
+        </div>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/spiderman.jpg"></div>
+            <div class="item"><img src="img/peakyblinders.jpg"></div>
+            <div class="item"><img src="img/lupin.jpg"></div>
+            <div class="item"><img src="img/breaking bad.jpg"></div>
+            <div class="item"><img src="img/arcane.jpg"></div>
+            <div class="item"><img src="img/vikings.jpg"></div>
+            <div class="item"><img src="img/unsolved.jpg"></div>
+            <div class="item"><img src="img/kimetsu.jpg"></div>
+            <div class="item"><img src="img/brooklyn99.jpg"></div>
+            <div class="item"><img src="img/fruitvale.jpg"></div>
+            
+            
+        </div>
+
+        <div class="title-fav">
+            <h4>Populares<i class="fa-regular fa-circle-right"></i></h4>
+            
+        </div>
+
         <div class="owl-carousel owl-theme">
             <div class="item"><img src="img/spiderman.jpg"></div>
             <div class="item"><img src="img/peakyblinders.jpg"></div>
@@ -69,11 +149,12 @@
     <script src="https://kit.fontawesome.com/82ecc1f151.js" crossorigin="anonymous"></script>
     <script src="bootstrap/js/owl/jquery.min.js"></script>
     <script src="bootstrap/js/owl/owl.carousel.min.js"></script>
+    <script src="bootstrap/js/owl/setup.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
-    nav:true,
+    nav:false,
     responsive:{
         0:{
             items:1
